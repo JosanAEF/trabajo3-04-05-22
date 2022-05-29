@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.csss">
+</head>
+<body>
+    <h1>Contactenos</h1>
+    <form autocomplete="off" method="post" action="https://reqres.in/api/users">
+        <label for="mad">Nombre</label>
+        <input type="text" id="mad" name="user_fname">
+
+        <label for="luck">Apellido</label>
+        <input type="text" id="luck" name="user_lname">
+
+        <label for="ones">Fecha de nacimiento</label>
+        <input type="date" id="ones" name="user_date">
+
+        <label for="world">Nombre de usuario</label>
+        <input type="name" id="world" name="user_name">
+
+        <label for="ptx">Email</label>
+        <input type="email" id="ptx" name="email_adress">
+
+        <label for="royals">Contraseña</label>
+        <input type="password" id="royals" name="password">
+
+        <label for="hallelujah">quieres suscribirte al premiun?</label>
+        <input type="checkbox" id="hallelujah" name="newletter">
+
+        <label for="joy">De donde eres?</label>
+        <select name="user_city" id="joy">
+            <option select hidden>selecciona tu pais</option>
+            <option value="granada">granada</option>
+            <option value="londres">londres</option>
+            <option value="cajamarca">cajamarca</option>
+        </select>
+
+        <label for="messenger">Mensaje</label>
+        <textarea name="user_manager" id="messenger" cols="30" rows="10"></textarea>
+        <button>Registrarse</button>
+    </form>
+</body>
+</html>
